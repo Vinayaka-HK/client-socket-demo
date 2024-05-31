@@ -1,0 +1,20 @@
+{
+  "name": "client-socket",
+  "version": "1.0.0",
+  "description": "demo socket client",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start:dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "M",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "socket.io-client": "^4.7.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
